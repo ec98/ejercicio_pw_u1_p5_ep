@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    gap: 4px;
+}
+
+.botones button{
+    height: 60px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(170, 152, 152);
+}
+
+#id:active{
+    color: red;
+}
